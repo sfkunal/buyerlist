@@ -104,10 +104,7 @@ wins, rebuilt, and added an automated check that flags any platform mapped to ge
 administrative codes while its description names a specific trade. It now runs over the whole
 index on every build, alongside ten other consistency checks (82% of entries clean).
 
-## Cost: $2.70 to build the index, ~$0.56 a run
-
-My first estimate for the index build was $30–50. It came in at $2.70, and none of the savings
-came from doing less work.
+## Effective API Use and Cost: $2.70 to build the index, ~$0.56 a run
 
 **Send the model less.** The biggest lever wasn't model choice, it was input size. Rather than
 feeding whole sites to the model, I score and select the ~12 highest-value pages per site
