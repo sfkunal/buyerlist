@@ -1,0 +1,403 @@
+{
+  "summary": {
+    "funds_checked": 79,
+    "platforms_checked": 1001,
+    "funds_with_no_issues": 65,
+    "clean_rate": 0.823,
+    "errors": 4,
+    "warnings": 33,
+    "checks": {
+      "ebitda_range_order": {
+        "severity": "error",
+        "description": "ebitda_min_usd > ebitda_max_usd",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "ev_range_order": {
+        "severity": "error",
+        "description": "ev_min_usd > ev_max_usd",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "revenue_range_order": {
+        "severity": "error",
+        "description": "revenue_min_usd > revenue_max_usd",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "ebitda_magnitude": {
+        "severity": "error",
+        "description": "EBITDA outside $100,000\u2013$500,000,000",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "ev_magnitude": {
+        "severity": "error",
+        "description": "EV outside $500,000\u2013$5,000,000,000",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "naics_format": {
+        "severity": "error",
+        "description": "NAICS code is not a 2\u20136 digit numeric string",
+        "count": 0,
+        "funds_affected": 0,
+        "examples": []
+      },
+      "generic_sector_mapping": {
+        "severity": "error",
+        "description": "trade-specific company mapped only to 56xxxx codes",
+        "count": 1,
+        "funds_affected": 1,
+        "examples": [
+          "CORE Industrial Partners: IMMEC \u2014 text mentions electrical but naics_codes=561710,561720,561730,561790 are all 56xxxx"
+        ]
+      },
+      "empty_extraction": {
+        "severity": "error",
+        "description": "no platforms and no sector_themes \u2014 failed extraction",
+        "count": 3,
+        "funds_affected": 3,
+        "examples": [
+          "Summit Park: tier=deep pages=1",
+          "HRCap, Inc.: tier=deep pages=12",
+          "Evolve Capital: tier=deep pages=1"
+        ]
+      },
+      "platform_no_naics": {
+        "severity": "warn",
+        "description": "portfolio company has no NAICS codes",
+        "count": 28,
+        "funds_affected": 9,
+        "examples": [
+          "Alpine Investors: Antelope \u2014 sector='Other'",
+          "Alpine Investors: CarHop \u2014 sector='Other'",
+          "Kidd & Company, LLC: Numet \u2014 sector='Unknown'"
+        ]
+      },
+      "addon_no_parent": {
+        "severity": "warn",
+        "description": "role=add_on but parent_platform is null",
+        "count": 4,
+        "funds_affected": 1,
+        "examples": [
+          "Alpine Investors: Actabl \u2014 add-on with no named parent platform",
+          "Alpine Investors: AirDNA \u2014 add-on with no named parent platform",
+          "Alpine Investors: LeoFM \u2014 add-on with no named parent platform"
+        ]
+      },
+      "duplicate_platform": {
+        "severity": "warn",
+        "description": "same platform name listed twice in one fund",
+        "count": 1,
+        "funds_affected": 1,
+        "examples": [
+          "Trilantic North America: traeger pellet grills \u2014 listed 2 times"
+        ]
+      }
+    }
+  },
+  "issues": [
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "addon_no_parent",
+      "severity": "warn",
+      "subject": "Actabl",
+      "detail": "add-on with no named parent platform"
+    },
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "addon_no_parent",
+      "severity": "warn",
+      "subject": "AirDNA",
+      "detail": "add-on with no named parent platform"
+    },
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Antelope",
+      "detail": "sector='Other'"
+    },
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "CarHop",
+      "detail": "sector='Other'"
+    },
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "addon_no_parent",
+      "severity": "warn",
+      "subject": "LeoFM",
+      "detail": "add-on with no named parent platform"
+    },
+    {
+      "domain": "alpineinvestors.com",
+      "firm_name": "Alpine Investors",
+      "code": "addon_no_parent",
+      "severity": "warn",
+      "subject": "Lyra Technology Group",
+      "detail": "add-on with no named parent platform"
+    },
+    {
+      "domain": "summitpark.com",
+      "firm_name": "Summit Park",
+      "code": "empty_extraction",
+      "severity": "error",
+      "subject": null,
+      "detail": "tier=deep pages=1"
+    },
+    {
+      "domain": "kiddcompany.com",
+      "firm_name": "Kidd & Company, LLC",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Numet",
+      "detail": "sector='Unknown'"
+    },
+    {
+      "domain": "clearviewcap.com",
+      "firm_name": "Clearview Capital",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "LJM Group",
+      "detail": "sector='Unknown'"
+    },
+    {
+      "domain": "clearviewcap.com",
+      "firm_name": "Clearview Capital",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "GCR",
+      "detail": "sector='Unknown'"
+    },
+    {
+      "domain": "coreipfund.com",
+      "firm_name": "CORE Industrial Partners",
+      "code": "generic_sector_mapping",
+      "severity": "error",
+      "subject": "IMMEC",
+      "detail": "text mentions electrical but naics_codes=561710,561720,561730,561790 are all 56xxxx"
+    },
+    {
+      "domain": "hrcap.com",
+      "firm_name": "HRCap, Inc.",
+      "code": "empty_extraction",
+      "severity": "error",
+      "subject": null,
+      "detail": "tier=deep pages=12"
+    },
+    {
+      "domain": "centrelanepartners.com",
+      "firm_name": "Centre Lane Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Keeco",
+      "detail": "sector='Unknown'"
+    },
+    {
+      "domain": "centrelanepartners.com",
+      "firm_name": "Centre Lane Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Perform[cb]",
+      "detail": "sector='Unknown'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Citadel EHS",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "VMC Group",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Millennium",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "SMI",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Cold Therapy",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Solution Matrix, Inc.",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "broadviewgroup.com",
+      "firm_name": "Broadview Group",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Broadview Capital",
+      "detail": "sector='Niche Manufacturing'"
+    },
+    {
+      "domain": "brentwood.com",
+      "firm_name": "Brentwood Associates",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Afterburn Holdings",
+      "detail": "sector='Other'"
+    },
+    {
+      "domain": "brentwood.com",
+      "firm_name": "Brentwood Associates",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "K-Mac Holdings Corp",
+      "detail": "sector='Other'"
+    },
+    {
+      "domain": "tscp.com",
+      "firm_name": "Thompson Street Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Karpel",
+      "detail": "sector='unknown'"
+    },
+    {
+      "domain": "atom.com",
+      "firm_name": "Evolve Capital",
+      "code": "empty_extraction",
+      "severity": "error",
+      "subject": null,
+      "detail": "tier=deep pages=1"
+    },
+    {
+      "domain": "aterianpartners.com",
+      "firm_name": "Aterian Investment Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Outlook Group",
+      "detail": "sector='Services'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Cast-Crete",
+      "detail": "sector='Industrials'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Edsal Manufacturing",
+      "detail": "sector='Industrials'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "EnviroTech Services",
+      "detail": "sector='Services'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Japs-Olson",
+      "detail": "sector='Manufacturing'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "McKenzie Creative Brands",
+      "detail": "sector='Consumer Products'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Milsco",
+      "detail": "sector='Manufacturing'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Osborn",
+      "detail": "sector='Industrials'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Southern Exteriors",
+      "detail": "sector='Services'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Thetford",
+      "detail": "sector='Consumer Products'"
+    },
+    {
+      "domain": "mcpfunds.com",
+      "firm_name": "Monomoy Capital Partners",
+      "code": "platform_no_naics",
+      "severity": "warn",
+      "subject": "Valtir",
+      "detail": "sector='Industrials'"
+    },
+    {
+      "domain": "trilantic.com",
+      "firm_name": "Trilantic North America",
+      "code": "duplicate_platform",
+      "severity": "warn",
+      "subject": "traeger pellet grills",
+      "detail": "listed 2 times"
+    }
+  ]
+}

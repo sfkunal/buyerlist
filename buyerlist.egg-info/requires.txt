@@ -1,0 +1,10 @@
+anthropic<2,>=1.7
+httpx<1,>=0.28
+pydantic<3,>=2.13
+python-dotenv<2,>=1.2
+rich<16,>=15
+selectolax<1,>=0.4
+trafilatura<3,>=2.2
+
+[dev]
+pytest<9,>=8

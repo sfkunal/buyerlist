@@ -199,19 +199,55 @@ said "filter logic unit-tested", which overstated it: the filter primitives were
 ad-hoc assertions during development, and the only tests that live in the repo are the offline
 self-tests inside `run_eval.py` and the QA checks in `index/qa.py`.
 
-Not yet built:
+### Backtest results
 
-- **The backtest.** The plan is to feed the tool the websites of ~25 companies that were actually
-  acquired in 2024–25 and measure how often the real acquirer appears in the top 10 — with a
-  leakage guard that strips the target from the acquirer's portfolio list and drops any add-on
-  announced after the deal, so the tool matches on the acquirer's pattern *as it stood before the
-  deal*. No recall numbers exist yet, and none are claimed.
-- **Index QA eval** — field-level accuracy on a 20-fund hand-checked sample.
+The tool was pointed at the websites of **54 companies that were actually acquired** in 2024–26,
+each traced to a real announcement. Before scoring a deal, a leakage guard rebuilds the index as
+it stood *before* that deal: it removes the target from any firm's portfolio, drops add-ons
+announced after the deal month, and drops platforms acquired after the deal year. Across the run
+it stripped **2,182 index entries** — including Siltworm sitting inside Align Capital's own
+portfolio page, which would otherwise have been a free win.
+
+Against a **170-fund index**, on the 18 deals whose acquirer was present:
+
+| metric | value |
+|---|---|
+| recall@1 | **4 / 18 (22%)** |
+| recall@5 | **7 / 18 (39%)** |
+| recall@10 | **8 / 18 (44%)** |
+| recall@20 | 8 / 18 (44%) |
+| median rank, when found | **1.5** |
+| deals errored | 0 |
+| cost | $11.34 |
+
+Four deals put the actual acquirer **first**. Ten of eighteen were misses.
+
+**Coverage, not ranking, is the bottleneck.** Across the full 54-deal set only **21 of 54 (39%)**
+of the real acquirers existed in the index at all. Those two numbers measure different things —
+ranking quality versus index breadth — and they fail in different ways, so reporting a single
+blended recall would have pointed the next week of work at the scoring rubric when the evidence
+points squarely at index coverage.
+
+**recall@10 equals recall@20.** Nothing was found between ranks 11 and 20, which suggests misses
+are hard-filter losses rather than the ranker burying a candidate it actually saw.
+
+#### What these numbers do not show
+
+- **n = 18 is small.** The 95% interval on recall@10 is roughly ±0.23. Directional, not precise.
+- **"The actual acquirer" is a flawed target, and it biases against the tool.** A buyer list is not
+  trying to predict the single winner; it is trying to produce ten credible buyers so a banker can
+  run a process. If the tool surfaces ten plausible funds and the business sells to the eleventh on
+  price or chemistry, recall records a miss on a list that was fine. Treat 44% as a **lower bound**
+  on list quality. Measuring the actual product would need blind professional rating against a
+  baseline — human judgement, not a backtest.
+- **The eval set has survivorship bias.** The largest drop category while building it was dead or
+  parked target websites — companies absorbed post-acquisition whose sites now redirect to the
+  acquirer. The set therefore skews toward targets that kept operating independently.
 
 Known limits:
 
-- The universe is **80 funds, not the 250 originally planned**. A smaller universe makes recall@10
-  easier, so universe size will be stated wherever recall is reported.
+- The universe is **170 funds, not the 250 originally planned**. Universe size is printed next to
+  every recall figure, because a recall number without it is close to meaningless.
 - Sites that are JavaScript-rendered, image-only, or that opt out via robots.txt degrade
   gracefully and say so rather than silently returning a thin profile.
 

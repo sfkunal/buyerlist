@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: buyerlist
+Version: 0.1.0
+Summary: Turns an SMB website into a ranked shortlist of plausible PE acquirers, drawn only from a verified fund index.
+Requires-Python: >=3.11
+Requires-Dist: anthropic<2,>=1.7
+Requires-Dist: httpx<1,>=0.28
+Requires-Dist: pydantic<3,>=2.13
+Requires-Dist: python-dotenv<2,>=1.2
+Requires-Dist: rich<16,>=15
+Requires-Dist: selectolax<1,>=0.4
+Requires-Dist: trafilatura<3,>=2.2
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"

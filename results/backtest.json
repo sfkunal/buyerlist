@@ -1,0 +1,1094 @@
+{
+  "generated_at": "2026-09-20T18:22:55+00:00",
+  "dry_run": false,
+  "deals_path": "buyerlist/evalset/deals_covered.jsonl",
+  "db_path": "data/funds.sqlite",
+  "metrics": {
+    "universe_funds": 170,
+    "deals_total": 18,
+    "deals_scored": 18,
+    "deals_errored": 0,
+    "coverage_n": 18,
+    "coverage_pct": 1.0,
+    "recall_all": {
+      "@5": 0.3888888888888889,
+      "@10": 0.4444444444444444,
+      "@20": 0.4444444444444444
+    },
+    "recall_all_n": 18,
+    "recall_in_index": {
+      "@5": 0.3888888888888889,
+      "@10": 0.4444444444444444,
+      "@20": 0.4444444444444444
+    },
+    "recall_in_index_n": 18,
+    "median_rank": 1.5,
+    "mean_rank": 2.625,
+    "found_n": 8,
+    "survived_filter_n": 16,
+    "guard_removals_total": 2182,
+    "guard_direct_leaks": 6
+  },
+  "deals": [
+    {
+      "target": "Direct Metals, Inc. (DMI)",
+      "target_url": "https://directmetalsinc.com/",
+      "acquirer_fund": "Trivest Partners",
+      "via_platform": null,
+      "announced": "2025-09",
+      "sector": "building products",
+      "state": "FL",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Trivest Partners",
+      "guard": {
+        "funds_touched": 48,
+        "total_removed": 122,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 73
+      },
+      "survived_filter": true,
+      "candidates": 160,
+      "rank": null,
+      "top_5": [
+        "MiddleGround Capital",
+        "The Watermill Group",
+        "Rock Gate Partners",
+        "Gen Cap America",
+        "Mangrove Equity Partners"
+      ],
+      "error": null,
+      "extracted_name": "Direct Metals Inc",
+      "extracted_naics": [],
+      "ebitda_mid_usd": 2060000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 10,
+        "naics": 0,
+        "geo": 0,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Davis Supply of Charleston, LLC",
+      "target_url": "https://davis-supply.com/",
+      "acquirer_fund": "Kinderhook Industries",
+      "via_platform": "US Masonry and Building Products",
+      "announced": "2025-07",
+      "sector": "building products",
+      "state": "SC",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Kinderhook Industries",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 67,
+      "rank": null,
+      "top_5": [
+        "The Sterling Group",
+        "The Watermill Group",
+        "Kian Capital Partners",
+        "Angeles Equity Partners",
+        "Gen Cap America"
+      ],
+      "error": null,
+      "extracted_name": "Davis Supply",
+      "extracted_naics": [
+        "423320",
+        "4233"
+      ],
+      "ebitda_mid_usd": 950000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 28,
+        "naics": 74,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Innovative Pest Control",
+      "target_url": "https://ipcpest.com/",
+      "acquirer_fund": "Thompson Street Capital Partners",
+      "via_platform": "PestCo Holdings",
+      "announced": "2025-05",
+      "sector": "home services",
+      "state": "TX",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Thompson Street Capital Partners",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 137,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 88
+      },
+      "survived_filter": true,
+      "candidates": 63,
+      "rank": 1,
+      "top_5": [
+        "Thompson Street Capital Partners",
+        "Incline Equity Partners",
+        "Gridiron Capital",
+        "Oridian Capital Partners",
+        "O2 Investment Partners"
+      ],
+      "error": null,
+      "extracted_name": "Innovative Pest Control",
+      "extracted_naics": [
+        "561710",
+        "5617"
+      ],
+      "ebitda_mid_usd": 465000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 47,
+        "naics": 59,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Strata Landscape Services",
+      "target_url": "https://www.stratals.com/",
+      "acquirer_fund": "Align Capital Partners",
+      "via_platform": null,
+      "announced": "2025-05",
+      "sector": "home services",
+      "state": "CA",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Align Capital Partners",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 137,
+        "platforms_named_target": [
+          "Align Capital Partners: Strata Landscape Services"
+        ],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 87
+      },
+      "survived_filter": true,
+      "candidates": 102,
+      "rank": null,
+      "top_5": [
+        "Century Park Capital Partners",
+        "Alpine Investors",
+        "Argonne Capital Group",
+        "One Rock Capital Partners",
+        "Prospect Partners"
+      ],
+      "error": null,
+      "extracted_name": "Strata Landscape Services",
+      "extracted_naics": [
+        "561730",
+        "5617"
+      ],
+      "ebitda_mid_usd": 7550000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 0,
+        "naics": 68,
+        "geo": 0,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Garage Headquarters",
+      "target_url": "https://www.garageheadquarters.com/",
+      "acquirer_fund": "Soundcore Capital Partners",
+      "via_platform": "US Dock & Door",
+      "announced": "2025-07",
+      "sector": "home services",
+      "state": "RI",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Soundcore Capital Partners",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 89,
+      "rank": 4,
+      "top_5": [
+        "Cortec Group",
+        "The Sterling Group",
+        "Alpine Investors",
+        "Soundcore Capital Partners",
+        "Shore Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "Garage Headquarters",
+      "extracted_naics": [
+        "238350",
+        "423120"
+      ],
+      "ebitda_mid_usd": 950000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 28,
+        "naics": 50,
+        "geo": 3,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Ridge Top Exteriors",
+      "target_url": "https://www.ridgetopexteriors.com/",
+      "acquirer_fund": "Soundcore Capital Partners",
+      "via_platform": "TrussPoint Roofing & Exterior Renovations",
+      "announced": "2025-06",
+      "sector": "home services",
+      "state": "WI",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Soundcore Capital Partners",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 64,
+      "rank": 1,
+      "top_5": [
+        "Soundcore Capital Partners",
+        "Bertram Capital",
+        "Gridiron Capital",
+        "Freeman Spogli & Co.",
+        "Angeles Equity Partners"
+      ],
+      "error": null,
+      "extracted_name": "Ridge Top Exteriors",
+      "extracted_naics": [
+        "238160",
+        "238170",
+        "2381"
+      ],
+      "ebitda_mid_usd": 3850000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 2,
+        "naics": 104,
+        "geo": 0,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Technique, Inc.",
+      "target_url": "https://techniqueinc.com/",
+      "acquirer_fund": "Angeles Equity Partners",
+      "via_platform": null,
+      "announced": "2025-11",
+      "sector": "manufacturing",
+      "state": "MI",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Angeles Equity Partners",
+      "guard": {
+        "funds_touched": 49,
+        "total_removed": 120,
+        "platforms_named_target": [
+          "Angeles Equity Partners: Technique"
+        ],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 70
+      },
+      "survived_filter": true,
+      "candidates": 109,
+      "rank": 7,
+      "top_5": [
+        "The Watermill Group",
+        "CORE Industrial Partners",
+        "MiddleGround Capital",
+        "Altus Capital Partners",
+        "Rock Gate Partners"
+      ],
+      "error": null,
+      "extracted_name": "Technique Inc",
+      "extracted_naics": [
+        "332119",
+        "332900"
+      ],
+      "ebitda_mid_usd": 7950000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 0,
+        "naics": 60,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Texas Injection Molding",
+      "target_url": "https://texasinjectionmolding.com/",
+      "acquirer_fund": "Blackford Capital",
+      "via_platform": null,
+      "announced": "2025-11",
+      "sector": "manufacturing",
+      "state": "TX",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Blackford Capital",
+      "guard": {
+        "funds_touched": 49,
+        "total_removed": 120,
+        "platforms_named_target": [
+          "Blackford Capital: Texas Injection Molding"
+        ],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 70
+      },
+      "survived_filter": true,
+      "candidates": 67,
+      "rank": 1,
+      "top_5": [
+        "Blackford Capital",
+        "Altus Capital Partners",
+        "Sole Source Capital",
+        "The Watermill Group",
+        "Tonka Bay Equity Partners"
+      ],
+      "error": null,
+      "extracted_name": "Texas Injection Molding",
+      "extracted_naics": [
+        "326199",
+        "3261"
+      ],
+      "ebitda_mid_usd": 2450000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 23,
+        "naics": 79,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Tindall Orthodontics",
+      "target_url": "https://www.tindallortho.com/",
+      "acquirer_fund": "Shore Capital Partners",
+      "via_platform": "Southern Orthodontic Partners",
+      "announced": "2024-07",
+      "sector": "healthcare services",
+      "state": "KS",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Shore Capital Partners",
+      "guard": {
+        "funds_touched": 66,
+        "total_removed": 207,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Graham Partners: Target Flavors (2025)",
+          "Graham Partners: Smithstown Light Engineering (2025)",
+          "Graham Partners: Miss Jones Baking Co (2025)",
+          "Bertram Capital: Left Lane Auto (2025)",
+          "Clearview Capital: LJM Group (2026)"
+        ],
+        "platforms_after_deal_count": 89,
+        "addons_named_target": [],
+        "addons_after_deal": 118
+      },
+      "survived_filter": false,
+      "candidates": 56,
+      "rank": null,
+      "top_5": [
+        "FFL Partners",
+        "Tyree & D'Angelo Partners",
+        "Brentwood Associates",
+        "Kinderhook Industries",
+        "Incline Equity Partners"
+      ],
+      "error": null,
+      "extracted_name": "Tindall Orthodontics",
+      "extracted_naics": [
+        "621210",
+        "6212"
+      ],
+      "ebitda_mid_usd": 375000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 43,
+        "naics": 70,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Brite",
+      "target_url": "https://brite.com/",
+      "acquirer_fund": "Sole Source Capital",
+      "via_platform": null,
+      "announced": "2026-01",
+      "sector": "IT services",
+      "state": "NY",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Sole Source Capital",
+      "guard": {
+        "funds_touched": 26,
+        "total_removed": 64,
+        "platforms_named_target": [
+          "Sole Source Capital: Brite"
+        ],
+        "platforms_after_deal": [],
+        "platforms_after_deal_count": 0,
+        "addons_named_target": [],
+        "addons_after_deal": 63
+      },
+      "survived_filter": true,
+      "candidates": 96,
+      "rank": null,
+      "top_5": [
+        "Lightview Capital",
+        "Alpine Investors",
+        "NewSpring Capital",
+        "Atlantic Street Capital",
+        "Hammond, Kennedy, Whitney & Company, Inc."
+      ],
+      "error": null,
+      "extracted_name": "Brite",
+      "extracted_naics": [
+        "541512",
+        "5415"
+      ],
+      "ebitda_mid_usd": 4750000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 1,
+        "naics": 71,
+        "geo": 2,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Fresh Managed IT",
+      "target_url": "https://freshmanagedit.com/",
+      "acquirer_fund": "Seaport Capital",
+      "via_platform": "CyberlinkASP",
+      "announced": "2026-01",
+      "sector": "IT services",
+      "state": "AL",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Seaport Capital",
+      "guard": {
+        "funds_touched": 25,
+        "total_removed": 63,
+        "platforms_named_target": [],
+        "platforms_after_deal": [],
+        "platforms_after_deal_count": 0,
+        "addons_named_target": [],
+        "addons_after_deal": 63
+      },
+      "survived_filter": false,
+      "candidates": 68,
+      "rank": null,
+      "top_5": [
+        "Kian Capital Partners",
+        "NewSpring Capital",
+        "Alpine Investors",
+        "Falfurrias Capital Partners",
+        "Periscope Equity"
+      ],
+      "error": null,
+      "extracted_name": "Fresh Managed IT",
+      "extracted_naics": [
+        "541513",
+        "5415"
+      ],
+      "ebitda_mid_usd": 500000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 43,
+        "naics": 57,
+        "geo": 2,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "PCH Technologies",
+      "target_url": "https://pchtechnologies.com/",
+      "acquirer_fund": "Alpine Investors",
+      "via_platform": "Evergreen Services Group (Lyra Technology Group)",
+      "announced": "2025-06",
+      "sector": "IT services",
+      "state": "NJ",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Alpine Investors",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 92,
+      "rank": 4,
+      "top_5": [
+        "Lightview Capital",
+        "Atlantic Street Capital",
+        "Hammond, Kennedy, Whitney & Company, Inc.",
+        "Alpine Investors",
+        "Align Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "PCH Technologies",
+      "extracted_naics": [
+        "541512",
+        "5415"
+      ],
+      "ebitda_mid_usd": 1375000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 11,
+        "naics": 67,
+        "geo": 0,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "ImageQuest",
+      "target_url": "https://www.imagequest.com/",
+      "acquirer_fund": "Alpine Investors",
+      "via_platform": "Evergreen Services Group (Lyra Technology Group)",
+      "announced": "2025-07",
+      "sector": "IT services",
+      "state": "TN",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Alpine Investors",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 90,
+      "rank": 2,
+      "top_5": [
+        "Lightview Capital",
+        "Alpine Investors",
+        "Periscope Equity",
+        "Atlantic Street Capital",
+        "Sunstone Partners"
+      ],
+      "error": null,
+      "extracted_name": "ImageQuest",
+      "extracted_naics": [
+        "541512",
+        "5415"
+      ],
+      "ebitda_mid_usd": 1650000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 11,
+        "naics": 67,
+        "geo": 2,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Chilton Auto Body",
+      "target_url": "https://chiltonautobody.com/",
+      "acquirer_fund": "Trive Capital",
+      "via_platform": null,
+      "announced": "2025-02",
+      "sector": "auto aftermarket",
+      "state": "CA",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Trive Capital",
+      "guard": {
+        "funds_touched": 54,
+        "total_removed": 147,
+        "platforms_named_target": [
+          "Trive Capital: Chilton Auto Body"
+        ],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 97
+      },
+      "survived_filter": true,
+      "candidates": 43,
+      "rank": null,
+      "top_5": [
+        "Incline Equity Partners",
+        "Roark Capital Group",
+        "Palladium Equity Partners",
+        "O2 Investment Partners",
+        "Century Park Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "Chilton Auto Body",
+      "extracted_naics": [
+        "811121",
+        "8111"
+      ],
+      "ebitda_mid_usd": 10000000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 1,
+        "naics": 126,
+        "geo": 0,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "American SaniCan",
+      "target_url": "https://gowithsanican.com/",
+      "acquirer_fund": "Trivest Partners",
+      "via_platform": "Total Sanitation Services",
+      "announced": "2025-08",
+      "sector": "environmental services",
+      "state": "OR",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Trivest Partners",
+      "guard": {
+        "funds_touched": 50,
+        "total_removed": 127,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 78
+      },
+      "survived_filter": true,
+      "candidates": 69,
+      "rank": null,
+      "top_5": [
+        "Alpine Investors",
+        "Kinderhook Industries",
+        "Soundcore Capital Partners",
+        "Shore Capital Partners",
+        "O2 Investment Partners"
+      ],
+      "error": null,
+      "extracted_name": "American SaniCan",
+      "extracted_naics": [
+        "562991",
+        "5629"
+      ],
+      "ebitda_mid_usd": 1800000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 39,
+        "naics": 60,
+        "geo": 2,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Cap City Rentals",
+      "target_url": "https://www.capcityrentals.com/",
+      "acquirer_fund": "Trivest Partners",
+      "via_platform": "Total Sanitation Services",
+      "announced": "2025-08",
+      "sector": "environmental services",
+      "state": "TX",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Trivest Partners",
+      "guard": {
+        "funds_touched": 50,
+        "total_removed": 127,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 78
+      },
+      "survived_filter": true,
+      "candidates": 67,
+      "rank": null,
+      "top_5": [
+        "Kinderhook Industries",
+        "O2 Investment Partners",
+        "Alpine Investors",
+        "Kian Capital Partners",
+        "Post Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "Cap City Rentals",
+      "extracted_naics": [
+        "562991",
+        "5629"
+      ],
+      "ebitda_mid_usd": 950000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 43,
+        "naics": 59,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "Siltworm",
+      "target_url": "https://siltworm.com/",
+      "acquirer_fund": "Align Capital Partners",
+      "via_platform": "MKB Company",
+      "announced": "2026-09",
+      "sector": "environmental services",
+      "state": "IN",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Align Capital Partners",
+      "guard": {
+        "funds_touched": 1,
+        "total_removed": 1,
+        "platforms_named_target": [],
+        "platforms_after_deal": [],
+        "platforms_after_deal_count": 0,
+        "addons_named_target": [
+          "Align Capital Partners/MKB Company: Siltworm"
+        ],
+        "addons_after_deal": 0
+      },
+      "survived_filter": true,
+      "candidates": 68,
+      "rank": null,
+      "top_5": [
+        "Blackford Capital",
+        "Hammond, Kennedy, Whitney & Company, Inc.",
+        "CORE Industrial Partners",
+        "Tonka Bay Equity Partners",
+        "Altus Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "Siltworm, Inc.",
+      "extracted_naics": [
+        "326199",
+        "325211"
+      ],
+      "ebitda_mid_usd": 1100000,
+      "size_confidence": "low",
+      "filter_drops": {
+        "size": 23,
+        "naics": 78,
+        "geo": 1,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    },
+    {
+      "target": "TechServ",
+      "target_url": "https://techserv.com/",
+      "acquirer_fund": "Bernhard Capital Partners",
+      "via_platform": null,
+      "announced": "2025-06",
+      "sector": "utility services",
+      "state": "TX",
+      "universe": 170,
+      "acquirer_in_index": true,
+      "acquirer_indexed_as": "Bernhard Capital Partners",
+      "guard": {
+        "funds_touched": 51,
+        "total_removed": 135,
+        "platforms_named_target": [],
+        "platforms_after_deal": [
+          "Blue Point Capital Partners: Dumpsters.com (2026)",
+          "Wynnchurch Capital: Luxfer Holdings (2026)",
+          "Graham Partners: Immix (2026)",
+          "Graham Partners: Quantive Intelligence (2026)",
+          "Graham Partners: Midwest Products & Engineering (2026)",
+          "Clearview Capital: LJM Group (2026)",
+          "Levine Leichtman Capital Partners: Colt Group (2026)",
+          "Incline Equity Partners: West Physics (2026)",
+          "Incline Equity Partners: MCCi (2026)",
+          "Periscope Equity: Amusement Connect (2026)"
+        ],
+        "platforms_after_deal_count": 49,
+        "addons_named_target": [],
+        "addons_after_deal": 86
+      },
+      "survived_filter": true,
+      "candidates": 124,
+      "rank": 1,
+      "top_5": [
+        "Bernhard Capital Partners",
+        "Hastings Equity Partners",
+        "Tailwind Capital",
+        "Trive Capital",
+        "One Rock Capital Partners"
+      ],
+      "error": null,
+      "extracted_name": "TechServ",
+      "extracted_naics": [
+        "237130",
+        "541330"
+      ],
+      "ebitda_mid_usd": 20000000,
+      "size_confidence": "medium",
+      "filter_drops": {
+        "size": 1,
+        "naics": 42,
+        "geo": 3,
+        "exclusion": 0
+      },
+      "hallucinated": [],
+      "hallucinated_platforms": []
+    }
+  ],
+  "cost_usd": 11.3430355,
+  "telemetry": [
+    {
+      "stage": "extract",
+      "model": "claude-sonnet-5",
+      "input_tokens": 207789,
+      "output_tokens": 39903,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "seconds": 351.19442534446716,
+      "calls": 18,
+      "cache_ttl": "5m",
+      "cost_usd": 1.221912
+    },
+    {
+      "stage": "size",
+      "model": "claude-opus-5",
+      "input_tokens": 31623,
+      "output_tokens": 23963,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "seconds": 367.3410174846649,
+      "calls": 18,
+      "cache_ttl": "5m",
+      "cost_usd": 0.75719
+    },
+    {
+      "stage": "rank",
+      "model": "claude-opus-5",
+      "input_tokens": 30454,
+      "output_tokens": 195246,
+      "cache_read_tokens": 410987,
+      "cache_write_tokens": 412502,
+      "seconds": 2139.2055010795593,
+      "calls": 18,
+      "cache_ttl": "1h",
+      "cost_usd": 9.3639335
+    }
+  ]
+}
