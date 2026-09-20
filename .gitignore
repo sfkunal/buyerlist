@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+
+# virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# 241MB of scraped HTML; regenerates on demand
+data/cache/
+
+# per-run outputs
+out/
+
+# local editor/agent state
+.claude/settings.local.json
+data/funds.sqlite.bak-*

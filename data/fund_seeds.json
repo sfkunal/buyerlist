@@ -1,0 +1,1782 @@
+[
+  {
+    "firm_name": "LFM Capital",
+    "website": "https://www.lfmcapital.com",
+    "domain": "lfmcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "precision manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Alpine Investors",
+    "website": "https://alpineinvestors.com",
+    "domain": "alpineinvestors.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "software and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "The Riverside Company",
+    "website": "https://www.riversidecompany.com",
+    "domain": "riversidecompany.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Graham Partners",
+    "website": "https://www.grahampartners.net",
+    "domain": "grahampartners.net",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "advanced manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Blue Point Capital Partners",
+    "website": "https://www.bluepointcapital.com",
+    "domain": "bluepointcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "ShoreView Industries",
+    "website": "https://www.shoreview.com",
+    "domain": "shoreview.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Audax Private Equity",
+    "website": "https://audaxprivateequity.com",
+    "domain": "audaxprivateequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified buy-and-build",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "MiddleGround Capital",
+    "website": "https://middleground.com",
+    "domain": "middleground.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and B2B",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Summit Park",
+    "website": "https://summitpark.com",
+    "domain": "summitpark.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche manufacturing and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Frontenac Company",
+    "website": "https://frontenac.com",
+    "domain": "frontenac.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Nautic Partners",
+    "website": "https://nautic.com",
+    "domain": "nautic.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare, industrials, services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Gen Cap America",
+    "website": "https://gencapamerica.com",
+    "domain": "gencapamerica.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "The Watermill Group",
+    "website": "https://www.watermill.com",
+    "domain": "watermill.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Huron Capital",
+    "website": "https://www.huroncapital.com",
+    "domain": "huroncapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "buy-and-build services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Rotunda Capital Partners",
+    "website": "https://www.rotundacapital.com",
+    "domain": "rotundacapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "distribution and logistics",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Kidd & Company",
+    "website": "https://www.kiddcompany.com",
+    "domain": "kiddcompany.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Trivest Partners",
+    "website": "https://www.trivest.com",
+    "domain": "trivest.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned businesses",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Wynnchurch Capital",
+    "website": "https://www.wynnchurch.com",
+    "domain": "wynnchurch.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Prospect Partners",
+    "website": "https://prospect-partners.com",
+    "domain": "prospect-partners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Shorehill Capital",
+    "website": "https://shorehillcapital.com",
+    "domain": "shorehillcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "May River Capital",
+    "website": "https://mayrivercapital.com",
+    "domain": "mayrivercapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "precision industrial",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Bertram Capital",
+    "website": "https://www.bertramcapital.com",
+    "domain": "bertramcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market growth",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Clearview Capital",
+    "website": "https://www.clearviewcap.com",
+    "domain": "clearviewcap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "CORE Industrial Partners",
+    "website": "https://coreipfund.com",
+    "domain": "coreipfund.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and industrial tech",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Gauge Capital",
+    "website": "https://gaugecapital.com",
+    "domain": "gaugecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Align Capital Partners",
+    "website": "https://aligncp.com",
+    "domain": "aligncp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Levine Leichtman Capital Partners",
+    "website": "https://www.llcp.com",
+    "domain": "llcp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "franchising and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Granite Creek Capital Partners",
+    "website": "https://www.granitecreek.com",
+    "domain": "granitecreek.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Incline Equity Partners",
+    "website": "https://inclineequity.com",
+    "domain": "inclineequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "distribution and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Periscope Equity",
+    "website": "https://periscopeequity.com",
+    "domain": "periscopeequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "tech-enabled services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "NewSpring Capital",
+    "website": "https://newspringcapital.com",
+    "domain": "newspringcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "growth and buyout",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "O2 Investment Partners",
+    "website": "https://o2investment.com",
+    "domain": "o2investment.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Tonka Bay Equity Partners",
+    "website": "https://tonkabayequity.com",
+    "domain": "tonkabayequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Comvest Partners",
+    "website": "https://comvest.com",
+    "domain": "comvest.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Kinderhook Industries",
+    "website": "https://www.kinderhook.com",
+    "domain": "kinderhook.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare, environmental, automotive",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Mangrove Equity Partners",
+    "website": "https://mangroveequity.com",
+    "domain": "mangroveequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Hamilton Robinson Capital Partners",
+    "website": "https://www.hrcap.com",
+    "domain": "hrcap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Centre Lane Partners",
+    "website": "https://www.centrelanepartners.com",
+    "domain": "centrelanepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Cyprium Partners",
+    "website": "https://cyprium.com",
+    "domain": "cyprium.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "non-control and minority",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Hammond Kennedy Whitney",
+    "website": "https://www.hkwinc.com",
+    "domain": "hkwinc.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Blackford Capital",
+    "website": "https://www.blackfordcapital.com",
+    "domain": "blackfordcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Rock Gate Partners",
+    "website": "https://www.rockgatepartners.com",
+    "domain": "rockgatepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Broadview Group",
+    "website": "https://broadviewgroup.com",
+    "domain": "broadviewgroup.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Merit Capital Partners",
+    "website": "https://www.meritcapital.com",
+    "domain": "meritcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Riata Capital Group",
+    "website": "https://www.riatacapital.com",
+    "domain": "riatacapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare and consumer",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Silver Oak Services Partners",
+    "website": "https://www.silveroaksp.com",
+    "domain": "silveroaksp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business and consumer services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Pharos Capital Group",
+    "website": "https://www.pharosfunds.com",
+    "domain": "pharosfunds.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Snow Phipps / Ancora",
+    "website": "https://truarcpartners.com",
+    "domain": "truarcpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Lightview Capital",
+    "website": "https://lightviewcapital.com",
+    "domain": "lightviewcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Brentwood Associates",
+    "website": "https://www.brentwood.com",
+    "domain": "brentwood.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Shore Capital Partners",
+    "website": "https://www.shorecp.com",
+    "domain": "shorecp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare and food microcap",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Cortec Group",
+    "website": "https://cortecgroup.com",
+    "domain": "cortecgroup.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Monomoy Capital Partners",
+    "website": "https://www.mcpfunds.com",
+    "domain": "mcpfunds.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "North Castle Partners",
+    "website": "https://northcastlepartners.com",
+    "domain": "northcastlepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "health and wellness consumer",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Thompson Street Capital Partners",
+    "website": "https://www.tscp.com",
+    "domain": "tscp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "software, healthcare, industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Yellow Wood Partners",
+    "website": "https://www.yellowwoodpartners.com",
+    "domain": "yellowwoodpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer brands",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Chicago Pacific Founders",
+    "website": "https://cpfounders.com",
+    "domain": "cpfounders.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Aterian Investment Partners",
+    "website": "https://www.aterianpartners.com",
+    "domain": "aterianpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Swander Pace Capital",
+    "website": "https://spcap.com",
+    "domain": "spcap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer packaged goods",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Gridiron Capital",
+    "website": "https://gridironcapital.com",
+    "domain": "gridironcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned niche",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Sole Source Capital",
+    "website": "https://solesourcecapital.com",
+    "domain": "solesourcecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Nolan Capital",
+    "website": "https://www.nolancapital.com",
+    "domain": "nolancapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "BlueHalo / Arlington",
+    "website": "https://arlingtoncap.com",
+    "domain": "arlingtoncap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "government services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Renovus Capital Partners",
+    "website": "https://renovuscapital.com",
+    "domain": "renovuscapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "knowledge and education services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Transom Capital Group",
+    "website": "https://transomcap.com",
+    "domain": "transomcap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "operational turnarounds",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "FFL Partners",
+    "website": "https://www.fflpartners.com",
+    "domain": "fflpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Bow River Capital",
+    "website": "https://bowrivercapital.com",
+    "domain": "bowrivercapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Century Park Capital Partners",
+    "website": "https://centuryparkcapital.com",
+    "domain": "centuryparkcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Susquehanna Private Capital",
+    "website": "https://sig.com",
+    "domain": "sig.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Dominus Capital",
+    "website": "https://dominuscap.com",
+    "domain": "dominuscap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Tyree & D'Angelo Partners",
+    "website": "https://www.tdpfund.com",
+    "domain": "tdpfund.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services roll-ups",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Trilantic North America",
+    "website": "https://www.trilantic.com",
+    "domain": "trilantic.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Soundcore Capital Partners",
+    "website": "https://soundcorecap.com",
+    "domain": "soundcorecap.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "fragmented industry roll-ups",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Linden Capital Partners",
+    "website": "https://www.linden.com",
+    "domain": "linden.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Sheridan Capital Partners",
+    "website": "https://sheridancp.com",
+    "domain": "sheridancp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Cressey & Company",
+    "website": "https://www.cresseyco.com",
+    "domain": "cresseyco.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Arbor Investments",
+    "website": "https://www.arborpic.com",
+    "domain": "arborpic.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "food and beverage",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Sterling Partners",
+    "website": "https://sterlingpartners.com",
+    "domain": "sterlingpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "education and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Silver Lining / Mill Point",
+    "website": "https://millpoint.com",
+    "domain": "millpoint.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Kian Capital Partners",
+    "website": "https://www.kiancapital.com",
+    "domain": "kiancapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Centre Partners",
+    "website": "https://www.centrepartners.com",
+    "domain": "centrepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and food",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Stride Consumer Partners",
+    "website": "https://www.strideconsumer.com",
+    "domain": "strideconsumer.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer brands",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Monogram Capital Partners",
+    "website": "https://monogramcapital.com",
+    "domain": "monogramcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer brands",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Kainos Capital",
+    "website": "https://kainoscapital.com",
+    "domain": "kainoscapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "food and consumer",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Butterfly Equity",
+    "website": "https://www.bfly.com",
+    "domain": "bfly.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "food and agriculture",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Freeman Spogli & Co.",
+    "website": "https://www.freemanspogli.com",
+    "domain": "freemanspogli.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and distribution",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Palladium Equity Partners",
+    "website": "https://www.palladiumequity.com",
+    "domain": "palladiumequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Bansk Group",
+    "website": "https://www.banskgroup.com",
+    "domain": "banskgroup.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer brands",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Prospect Hill Growth Partners",
+    "website": "https://www.prospecthillgrowth.com",
+    "domain": "prospecthillgrowth.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and health",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Garnett Station Partners",
+    "website": "https://garnettstation.com",
+    "domain": "garnettstation.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "franchising and multi-unit",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Roark Capital Group",
+    "website": "https://www.roarkcapital.com",
+    "domain": "roarkcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "franchising and multi-unit",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Argonne Capital Group",
+    "website": "https://argonnecapital.com",
+    "domain": "argonnecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "restaurant franchising",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "The Halifax Group",
+    "website": "https://thehalifaxgroup.com",
+    "domain": "thehalifaxgroup.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "MSouth Equity Partners",
+    "website": "https://www.msouth.com",
+    "domain": "msouth.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services and industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Carousel Capital",
+    "website": "https://www.carouselcapital.com",
+    "domain": "carouselcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business and healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Highlander Partners",
+    "website": "https://highlander-partners.com",
+    "domain": "highlander-partners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "consumer and materials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Atlantic Street Capital",
+    "website": "https://www.atlanticstreetcapital.com",
+    "domain": "atlanticstreetcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "franchising",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "CenterOak Partners",
+    "website": "https://centeroakpartners.com",
+    "domain": "centeroakpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Gemspring Capital",
+    "website": "https://www.gemspring.com",
+    "domain": "gemspring.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Trinity Hunt Partners",
+    "website": "https://www.trinityhunt.com",
+    "domain": "trinityhunt.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services roll-ups",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Lincolnshire Management",
+    "website": "https://www.lincolnshiremgmt.com",
+    "domain": "lincolnshiremgmt.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Falfurrias Capital Partners",
+    "website": "https://falfurrias.com",
+    "domain": "falfurrias.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Tailwind Capital",
+    "website": "https://www.tailwind.com",
+    "domain": "tailwind.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Fort Point Capital",
+    "website": "https://fortpointcapital.com",
+    "domain": "fortpointcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Seaport Capital",
+    "website": "https://www.seaportcapital.com",
+    "domain": "seaportcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "communications and business services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Clearhaven Partners",
+    "website": "https://www.clearhavenpartners.com",
+    "domain": "clearhavenpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "software and tech services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Post Capital Partners",
+    "website": "https://www.postcp.com",
+    "domain": "postcp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "business services and manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Serent Capital",
+    "website": "https://serentcapital.com",
+    "domain": "serentcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "vertical software and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "ParkerGale Capital",
+    "website": "https://www.parkergale.com",
+    "domain": "parkergale.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Mainsail Partners",
+    "website": "https://mainsailpartners.com",
+    "domain": "mainsailpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "bootstrapped software",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Diversis Capital",
+    "website": "https://www.diversis.com",
+    "domain": "diversis.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "software and tech services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "BV Investment Partners",
+    "website": "https://www.bvlp.com",
+    "domain": "bvlp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "tech and business services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Luminate Capital Partners",
+    "website": "https://luminatecapital.com",
+    "domain": "luminatecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "enterprise software",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Banneker Partners",
+    "website": "https://www.bannekerpartners.com",
+    "domain": "bannekerpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "enterprise software",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Nonantum Capital Partners",
+    "website": "https://nonantumcapital.com",
+    "domain": "nonantumcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Marlin Equity Partners",
+    "website": "https://www.marlinequity.com",
+    "domain": "marlinequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "technology carve-outs",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Sunstone Partners",
+    "website": "https://sunstonepartners.com",
+    "domain": "sunstonepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "tech-enabled services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "ATL Partners",
+    "website": "https://www.atlpartners.com",
+    "domain": "atlpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "aerospace, transportation, logistics",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Strattam Capital",
+    "website": "https://strattam.com",
+    "domain": "strattam.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "B2B software",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Greenbriar Equity Group",
+    "website": "https://www.greenbriar.com",
+    "domain": "greenbriar.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "transportation",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Pamlico Capital",
+    "website": "https://www.pamlicocapital.com",
+    "domain": "pamlicocapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "communications and tech services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Angeles Equity Partners",
+    "website": "https://www.angelesequity.com",
+    "domain": "angelesequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial transformation",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "HCI Equity Partners",
+    "website": "https://oridiancapital.com",
+    "domain": "oridiancapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "distribution and logistics",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "The Sterling Group",
+    "website": "https://sterling-group.com",
+    "domain": "sterling-group.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and building products",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Guardian Capital Partners",
+    "website": "https://www.guardiancp.com",
+    "domain": "guardiancp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Dunes Point Capital",
+    "website": "https://dunespointcapital.com",
+    "domain": "dunespointcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and logistics",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Rock Island Capital",
+    "website": "https://www.rockislandcapital.com",
+    "domain": "rockislandcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "construction services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Riverside Partners",
+    "website": "https://rs2healthcare.com",
+    "domain": "rs2healthcare.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare and technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Bernhard Capital Partners",
+    "website": "https://www.bernhardcapital.com",
+    "domain": "bernhardcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "energy and infrastructure",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "CenterGate Capital",
+    "website": "https://www.centergatecapital.com",
+    "domain": "centergatecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "lower middle market industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "AE Industrial Partners",
+    "website": "https://www.aeroequity.com",
+    "domain": "aeroequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "aerospace and defense",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Blue Wolf Capital Partners",
+    "website": "https://www.bluewolfcapital.com",
+    "domain": "bluewolfcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Liberty Hall Capital Partners",
+    "website": "https://www.libertyhallcapital.com",
+    "domain": "libertyhallcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "aerospace",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Sagewind Capital",
+    "website": "https://www.sagewindcapital.com",
+    "domain": "sagewindcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "government services and technology",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Acorn Growth Companies",
+    "website": "https://acorncapitalmanagement.com",
+    "domain": "acorncapitalmanagement.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "aerospace and defense",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Quad Partners",
+    "website": "https://www.quadpartners.com",
+    "domain": "quadpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "education services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Speyside Equity",
+    "website": "https://speysideequity.com",
+    "domain": "speysideequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "specialty chemicals and industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Vance Street Capital",
+    "website": "https://vancestreetcapital.com",
+    "domain": "vancestreetcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "aerospace and medical",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Achieve Partners",
+    "website": "https://www.achievepartners.com",
+    "domain": "achievepartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "education and workforce services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "New Heritage Capital",
+    "website": "https://www.newheritagecapital.com",
+    "domain": "newheritagecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned businesses",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "The Wicks Group",
+    "website": "https://www.wicksgroup.com",
+    "domain": "wicksgroup.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "media, education, information",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Mason Wells",
+    "website": "https://www.masonwells.com",
+    "domain": "masonwells.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "packaging and engineered products",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Altus Capital Partners",
+    "website": "https://www.altuscapitalpartners.com",
+    "domain": "altuscapitalpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "precision manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Arsenal Capital Partners",
+    "website": "https://www.arsenalcapital.com",
+    "domain": "arsenalcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "specialty industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Insight Equity",
+    "website": "https://www.insightequity.com",
+    "domain": "insightequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and materials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "SCF Partners",
+    "website": "https://www.scfpartners.com",
+    "domain": "scfpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "oilfield services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Pelican Energy Partners",
+    "website": "https://www.pelicanenergypartners.com",
+    "domain": "pelicanenergypartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "nuclear services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Hastings Equity Partners",
+    "website": "https://www.hastingsequity.com",
+    "domain": "hastingsequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "energy services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Wellspring Capital Management",
+    "website": "https://revelarcapital.com",
+    "domain": "revelarcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "SK Capital Partners",
+    "website": "https://skcapitalpartners.com",
+    "domain": "skcapitalpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "specialty materials and pharma",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Aquiline Capital Partners",
+    "website": "https://aquiline.com",
+    "domain": "aquiline.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "insurance and financial services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Stone Point Capital",
+    "website": "https://www.stonepoint.com",
+    "domain": "stonepoint.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "insurance and financial services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Turnbridge Capital Partners",
+    "website": "https://www.turnbridgecapital.com",
+    "domain": "turnbridgecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "energy services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Flexpoint Ford",
+    "website": "https://flexpointford.com",
+    "domain": "flexpointford.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "financial services and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Pine Tree Equity Partners",
+    "website": "https://www.pinetreeequity.com",
+    "domain": "pinetreeequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "services and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Lightyear Capital",
+    "website": "https://www.lightyearcapital.com",
+    "domain": "lightyearcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "financial services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Atlas Holdings",
+    "website": "https://www.atlasholdingsllc.com",
+    "domain": "atlasholdingsllc.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrial turnarounds",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Boyne Capital",
+    "website": "https://boynecapital.com",
+    "domain": "boynecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned lower middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Stellex Capital Management",
+    "website": "https://www.stellexcapital.com",
+    "domain": "stellexcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and aerospace",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Trive Capital",
+    "website": "https://www.trivecapital.com",
+    "domain": "trivecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "complex industrials",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "One Rock Capital Partners",
+    "website": "https://www.onerock.com",
+    "domain": "onerock.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and chemicals",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Peak Rock Capital",
+    "website": "https://www.peakrockcapital.com",
+    "domain": "peakrockcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "diversified middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Littlejohn & Co.",
+    "website": "https://littlejohnllc.com",
+    "domain": "littlejohnllc.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and special situations",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Pritzker Private Capital",
+    "website": "https://www.ppcpartners.com",
+    "domain": "ppcpartners.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "family-owned manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Norwest Equity Partners",
+    "website": "https://nep.com",
+    "domain": "nep.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "middle market diversified",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Tenex Capital Management",
+    "website": "https://www.tenexcm.com",
+    "domain": "tenexcm.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Waud Capital Partners",
+    "website": "https://www.waudcapital.com/en/home",
+    "domain": "waudcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare and software services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Spell Capital Partners",
+    "website": "https://spellcapital.com",
+    "domain": "spellcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "niche manufacturing",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Goldner Hawn",
+    "website": "https://goldnerhawn.com",
+    "domain": "goldnerhawn.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "founder-owned middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Ridgemont Equity Partners",
+    "website": "https://www.ridgemontep.com",
+    "domain": "ridgemontep.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industrials and services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Beecken Petty O'Keefe & Company",
+    "website": "https://www.bpoc.com",
+    "domain": "bpoc.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Revelstoke Capital Partners",
+    "website": "https://revelstokecapital.com",
+    "domain": "revelstokecapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Havencrest Capital Management",
+    "website": "https://havencrest.com",
+    "domain": "havencrest.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Ironbridge Equity Partners",
+    "website": "https://www.ironbridgeequity.com",
+    "domain": "ironbridgeequity.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "Canadian buyouts",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "BelHealth Investment Partners",
+    "website": "https://belhealth.com",
+    "domain": "belhealth.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "TorQuest Partners",
+    "website": "https://www.torquest.com",
+    "domain": "torquest.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "Canadian middle market",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "InTandem Capital Partners",
+    "website": "https://intandemcapital.com",
+    "domain": "intandemcapital.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "healthcare services",
+    "source": "curated",
+    "status": 200
+  },
+  {
+    "firm_name": "Novacap",
+    "website": "https://novacapcorp.com",
+    "domain": "novacapcorp.com",
+    "hq_hint": null,
+    "why_lmm": "curated seed; criteria verified by scraping the firm's own site",
+    "discovered_via": "industries and tech services",
+    "source": "curated",
+    "status": 200
+  }
+]

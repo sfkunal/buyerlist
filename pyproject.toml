@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buyerlist"
+version = "0.1.0"
+description = "Turns an SMB website into a ranked shortlist of plausible PE acquirers, drawn only from a verified fund index."
+requires-python = ">=3.11"
+
+dependencies = [
+    "anthropic>=1.7,<2",
+    "httpx>=0.28,<1",
+    "pydantic>=2.13,<3",
+    "python-dotenv>=1.2,<2",
+    "rich>=15,<16",
+    "selectolax>=0.4,<1",
+    "trafilatura>=2.2,<3",
+]
+
+[project.optional-dependencies]
+# `pip install -e ".[dev]"` then `pytest`. The suite is offline: no API key,
+# no network, and no fund index required.
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+buyerlist = "buyerlist.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["buyerlist*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

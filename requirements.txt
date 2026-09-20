@@ -1,0 +1,16 @@
+# Fallback install path. Kept consistent with the `dependencies` table in
+# pyproject.toml — prefer `pip install -e .`, which also installs the
+# `buyerlist` command.
+#
+#   pip install -r requirements.txt
+#
+# Lower bounds are the versions this was developed against; upper bounds stop
+# at the next major, since this is a prototype and not a locked deployment.
+
+anthropic>=1.7,<2
+httpx>=0.28,<1
+pydantic>=2.13,<3
+python-dotenv>=1.2,<2
+rich>=15,<16
+selectolax>=0.4,<1
+trafilatura>=2.2,<3

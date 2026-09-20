@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Kahn Mechanical Contractors",
+    "url": "https://www.kahnmechanical.com/",
+    "sector": "home services",
+    "state": "TX",
+    "why_interesting": "Second-generation, family- and woman-owned commercial HVAC contractor in Dallas-Fort Worth since 1974; commercial-only service and install base is exactly the recurring-revenue mechanical services profile PE is rolling up.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200. ~11.6K chars of server-rendered body text - richest homepage in the set. Site states 'Family-Owned Since 1974', 'second generation', TACL license number, Dallas Design District base. robots.txt present and permissive."
+  },
+  {
+    "name": "Gibbs Landscape Company",
+    "url": "https://gibbslandscape.com/",
+    "sector": "commercial landscaping",
+    "state": "GA",
+    "why_interesting": "Long-tenured independent Atlanta-area landscape firm (Smyrna, GA) with a commercial/HOA maintenance contract book alongside design-build; recurring grounds-maintenance contracts are the classic landscaping roll-up target.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~8.3K chars of text. Very large HTML (image-heavy WordPress) relative to text, so it exercises the HTML-to-text ratio path. Address 4055 Atlanta Road, Smyrna GA confirmed on site. Separate commercial and residential service trees - good test of page selection."
+  },
+  {
+    "name": "Badger Tag & Label Corporation",
+    "url": "https://badgertag.com/",
+    "sector": "specialty manufacturing",
+    "state": "WI",
+    "why_interesting": "Third-generation family-owned custom tag and label manufacturer in Random Lake, WI, founded 1935, operating two plants with letterpress, flexo and digital printing - a textbook founder/family-owned niche manufacturer.",
+    "expected_difficulty": "edge-case",
+    "robots_blocked": true,
+    "notes": "EDGE CASE 1 of 2: robots.txt is exactly 'User-agent: *' / 'Disallow: /' - the whole site is disallowed for every crawler. Verified by curl. The homepage itself returns 200 with ~3.9K chars of real HTML, so the ONLY thing stopping a profile here is robots policy. This is the target that proves the fetcher honors robots.txt and degrades to an explicit 'blocked by robots' state rather than silently emitting a thin profile. Found by scanning ~180 SMB domains - it was the only full-disallow site in the pool, so it is genuinely rare and worth keeping."
+  },
+  {
+    "name": "Spencer Products Company (SPC)",
+    "url": "https://spencerprodco.com/",
+    "sector": "value-added distribution",
+    "state": "OH",
+    "why_interesting": "Family-owned engineered-fastener distributor and OEM parts supplier in Twinsburg, OH since 1952; kitting/Class-C-parts programs for OEMs are the value-add that makes distribution defensible and attractive to buyers.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~3.9K chars. Site says 'Family-Owned Fastener Distributor Since 1952' and 'Family Values and Generations of Experience'. Thinner text than average - useful mid-range test. Note /about/ returns a soft 404 page ('404 Page Not Found' with HTTP 200), so this site exercises soft-404 handling in page selection."
+  },
+  {
+    "name": "Animal Hospital Southwest",
+    "url": "https://www.animalhospitalsouthwest.com/",
+    "sector": "veterinary practice group",
+    "state": "TX",
+    "why_interesting": "Independently owned since 1975, three locations across southwest Fort Worth, Benbrook and Crowley. The site explicitly markets its independence against corporate consolidation - a live vet roll-up target that has so far said no.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~3.9K chars. Site text: 'independently owned and operated since 1975', 'Fifty Years of Independent Veterinary Medicine in Fort Worth', founder Dr. Michael Morris still practicing - strong founder-succession signal for the memo. Smallest revenue in the set (likely near the $5M floor)."
+  },
+  {
+    "name": "ISG Technology",
+    "url": "https://www.isgtech.com/",
+    "sector": "IT managed services",
+    "state": "KS",
+    "why_interesting": "Fourth-generation family-owned MSP (part of the Twin Valley family of companies, founded 1947), 150+ employees across MO/KS/OK, owns SOC II audited data centers, 2,000+ clients - a real managed-services platform rather than a break/fix shop.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~8.7K chars. About page states 'Fourth generation family-owned (75+ years)', '3 offices, 3 states (MO, KS, OK), 150+ employees'. Clean 'At a Glance' block should make headcount/geography extraction easy - good positive control for the extractor."
+  },
+  {
+    "name": "Plainfield Trucking",
+    "url": "https://plainfieldtrucking.com/",
+    "sector": "trucking/logistics",
+    "state": "WI",
+    "why_interesting": "Family-owned asset-based carrier founded 1958 in Plainfield, WI, specializing in bulk produce and commodity hauling nationwide - a niche specialized carrier rather than generic dry van, which is what makes a trucking asset buyable.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~6.6K chars. Site: 'Servicing our Customer Needs since 1958', founded by George Zettelmeier and Jesse Ruffalo, now run by the next generation. Heavy driver-recruiting content on the homepage competes with the company story - good test that page scoring prefers about/services over careers."
+  },
+  {
+    "name": "Stello Foods, Inc.",
+    "url": "https://stellofoods.com/",
+    "sector": "food manufacturing",
+    "state": "PA",
+    "why_interesting": "Family-owned specialty food manufacturer in Punxsutawney, PA since 1990 - sauces, dressings, marinades and mustards under its own brand plus contract packaging and private label, which is the co-packing capacity buyers pay up for.",
+    "expected_difficulty": "medium",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~5.4K chars but 160KB of HTML - it is a Shopify storefront, so most of the homepage is product/cart/commerce chrome rather than company narrative. The real company signal lives on /pages/about-us and /pages/locations, not the homepage. Good stress test of page selection on an e-commerce-shaped SMB site. robots.txt is Shopify's verbose default (permissive for HTML)."
+  },
+  {
+    "name": "American Cedar & Millwork",
+    "url": "https://millwork1.com/",
+    "sector": "building products",
+    "state": "MD",
+    "why_interesting": "Family-owned architectural building materials dealer of 40+ years carrying 100+ product lines (windows, doors, cabinetry, moulding) across MD/DE/NC - specialty building-products distribution with installed-base pull-through.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~10.5K chars. Site: 'American Cedar Millwork is a 40-year young, family-owned, luxury architectural building materials dealer.' Note the brand name and the domain differ (millwork1.com), which is a good test that the tool keys off page content rather than the domain string."
+  },
+  {
+    "name": "American Waste Control",
+    "url": "https://www.americanwastecontrol.com/",
+    "sector": "environmental/waste services",
+    "state": "OK",
+    "why_interesting": "Family-owned since 1970, Tulsa's independent residential/commercial hauler and the only single-stream recycling operator in its market - route density plus a recycling MRF is the asset profile waste consolidators chase.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~8.5K chars. Site: 'Family-Owned Since 1970', 'TULSA'S MOST TRUSTED SINCE 1970', 'Only single-stream recycling solution in Tulsa'. Lots of customer-portal/bill-pay navigation to filter out."
+  },
+  {
+    "name": "Chaney's Collision Centers",
+    "url": "https://www.chaneyscollision.com/",
+    "sector": "auto collision",
+    "state": "AZ",
+    "why_interesting": "Independent multi-shop collision operator in metro Phoenix since 1977 (Glendale, Surprise, Glen Harbor and more) with ADAS calibration capability - a non-franchise MSO in the single most actively consolidated SMB sector in the country.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~9.6K chars. Homepage headline: 'Chaney's Collision Centers: Auto Body Repair in Phoenix Since 1977'. /about-us/ 404s but location pages resolve, so the crawler must get its company signal from the homepage and location pages."
+  },
+  {
+    "name": "Carolina Pest Management",
+    "url": "https://www.carolinapest.com/",
+    "sector": "pest control",
+    "state": "NC",
+    "why_interesting": "Four-generation family-owned Charlotte pest control company operating since 1939 and one of the largest independently owned pest firms in North Carolina - recurring contract revenue in the archetypal PE roll-up sector.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~12.3K chars - densest text in the set. Site: 'For four generations, our family-owned business...', 'one of the largest independently owned pest control companies in North Carolina'. Deliberately chosen over national franchise brands."
+  },
+  {
+    "name": "Associated Fire Protection",
+    "url": "https://www.associatedfire.com/",
+    "sector": "security/fire & life safety",
+    "state": "NJ",
+    "why_interesting": "Family owned since 1947 across three generations, four locations (Paterson, Edison, Williamstown NJ plus NY), covering fire alarm, sprinkler, suppression and security with inspection/testing contracts - the recurring ITM revenue buyers underwrite.",
+    "expected_difficulty": "easy",
+    "robots_blocked": false,
+    "notes": "Verified 200, ~10.8K chars. Site: 'FAMILY OWNED SINCE 1947', 'Three generations have contributed to AFP'. Multi-state service footprint listed on the site makes geography extraction non-trivial (headquarters vs. service area)."
+  },
+  {
+    "name": "Proficient Machining Co.",
+    "url": "https://www.proficientmachining.com/",
+    "sector": "precision machining",
+    "state": "OH",
+    "why_interesting": "Family-owned and operated since 1973, ISO 9001:2015 certified precision CNC and multi-spindle screw machine shop in Mentor, OH (7522 Tyler Blvd) serving aerospace, medical and automotive - the classic second-generation machining tuck-in.",
+    "expected_difficulty": "edge-case",
+    "robots_blocked": false,
+    "notes": "EDGE CASE 2 of 2: JavaScript-rendered. Returns HTTP 200 and a valid <title> and meta description, but the served HTML carries only ~50 characters of body text - all page content sits inside a client-side `var PageData = {...}` blob rendered by the mywebsitebuilder.com/viewer-vdeck builder. Confirmed by fetching /contact.html too: PageData present, zero address/phone text in the served markup. Company existence and address were verified independently (Mentor OH, founded 1973, ISO 9001:2015) - so the business is real and the failure is purely a fetch/render failure. This is the target that proves the tool reports a degraded/thin-content profile instead of hallucinating one from the title tag."
+  }
+]
