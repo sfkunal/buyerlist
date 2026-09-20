@@ -6,7 +6,7 @@ they would buy it into, how to open the conversation, and the strongest honest c
 match. The pipeline reads the site, extracts a structured company profile with every claim tied to
 a verbatim quote and URL, estimates revenue and EBITDA from proxies, filters a verified index of PE
 funds down to real candidates, and scores the survivors against a fixed rubric. The design
-constraint that shapes everything: **the model is never allowed to name a fund — it may only rank
+constraint that shapes everything: **the model is never allowed to name a fund - it may only rank
 funds retrieved from an index that is built and verified.** See `SPEC.md` for the full argument and
 `PLAN.md` for the build plan.
 
