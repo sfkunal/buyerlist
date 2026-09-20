@@ -194,11 +194,6 @@ Built and validated:
 - Index QA eval — automated consistency checks over the whole index, 82% of entries clean
 - Backtest harness — leakage guard and recall@k implemented, with offline self-tests
 
-There is **no committed test suite** (no pytest, no `tests/`). An earlier draft of this document
-said "filter logic unit-tested", which overstated it: the filter primitives were checked with
-ad-hoc assertions during development, and the only tests that live in the repo are the offline
-self-tests inside `run_eval.py` and the QA checks in `index/qa.py`.
-
 ### Backtest results
 
 The tool was pointed at the websites of **54 companies that were actually acquired** in 2024–26,
